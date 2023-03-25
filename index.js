@@ -1,7 +1,7 @@
 const io = require("socket.io-client");
 const readline = require("readline");
 
-var socket = io("https://repl-chat-server.<your username>.repl.co");
+var socket = io("https:sampantzer.github.io/Pong");
 
 const chat_interface = readline.createInterface({
   input: process.stdin,
